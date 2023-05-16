@@ -59,8 +59,8 @@ export function showModal() {
   return modal;
 }
 
-// * Автоматически (через 500 миллисекунд) выполняет поиск фильмов, когда пользователь вводит текст в поле поиска
-function debounce(func, timeout = 500) {
+// * Автоматически (через 700 миллисекунд) выполняет поиск фильмов, когда пользователь вводит текст в поле поиска
+function debounce(func, timeout = 700) {
   let timer;
   return (...args) => {
     clearTimeout(timer);
